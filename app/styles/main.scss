@@ -16,6 +16,16 @@ body {
   background-color: #eee;
   border-radius: 6px;
   padding: 60px;
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline;
+    padding-right: 50px;
+  }
+
   div.cats {
     width: 50%;
   }
@@ -23,6 +33,7 @@ body {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+    text-align: center;
   }
   figure {
     margin: 0 auto;
@@ -37,4 +48,8 @@ body {
   background: #ccc;
   color: #000;
   padding: 0.2em 0;
+}
+
+.hidden {
+  display: none;
 }
